@@ -1,0 +1,24 @@
+{
+	"name": "showbot",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "npx tsx index.ts --dev",
+		"start": "npx tsx index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"type": "module",
+	"dependencies": {
+		"baileys": "^7.0.0-rc13",
+		"qrcode": "^1.5.4"
+	},
+	"devDependencies": {
+		"@types/node": "^25.9.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^6.0.3"
+	}
+}
